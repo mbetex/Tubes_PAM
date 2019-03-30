@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:paddingTop="40dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/nama_siswaNgukur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="13"
+                android:hint="Masukkan Nama Siswa"
+                android:inputType="textPersonName"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:paddingRight="35dp"
+                android:paddingTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/asal_sekolah"
+                    android:textSize="20sp"/>
+                <Spinner
+                    android:id="@+id/sekolah_spinner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+            <EditText
+                android:paddingTop="30dp"
+                android:id="@+id/kelas_siswaNgukur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="13"
+                android:hint="Masukkan Kelas Siswa"
+                android:inputType="number"
+                android:textSize="20sp" />
+
+            <EditText
+                android:paddingTop="30dp"
+                android:id="@+id/hp_siswaNgukur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="13"
+                android:hint="Masukkan No. HP"
+                android:inputType="number"
+                android:textSize="20sp" />
+
+            <EditText
+                android:paddingTop="30dp"
+                android:id="@+id/totalBiaya"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="13"
+                android:hint="Total Harga"
+                android:inputType="number"
+                android:textSize="20sp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="30dp"
+                android:id="@+id/keterangan"
+                android:inputType="textMultiLine"
+                android:hint="Masukkan Keterangan"
+                android:ems="13"
+                android:textSize="20sp"/>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

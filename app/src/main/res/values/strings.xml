@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Elly Konveksi</string>
+    <string name="daftar_pegawai">Daftar Pegawai</string>
+    <string name="asal_sekolah">Pilih Asal Sekolah Siswa</string>
+
+    <string-array name="item_dashboard">
+        <item>Daftar Pegawai</item>
+        <item>Daftar Orderan</item>
+        <item>Laporan Penjualan</item>
+        <item>Gaji Karyawan</item>
+        <item>Coba Tambah1</item>
+        <item>Coba Tambah2</item>
+    </string-array>
+
+    <string-array name="item_dashboard_img">
+        <item>@drawable/icon_id_badge2</item>
+        <item>@drawable/icon_shopping_basket</item>
+        <item>@drawable/icon_book2</item>
+        <item>@drawable/icon_calculator</item>
+        <item>@drawable/icon_safe</item>
+        <item>@drawable/icon_supplies2</item>
+    </string-array>
+
+    <string-array name="item_namapegawai">
+        <item>Muhammad Ragil</item>
+        <item>Muhammad Tri</item>
+        <item>Muhammad Reza</item>
+        <item>Muhammad Ramadhan</item>
+        <item>Adelard Jibril</item>
+        <item>Adelard Ramadhan</item>
+    </string-array>
+
+    <string-array name="item_hppegawai">
+        <item>081377917757</item>
+        <item>081275973221</item>
+        <item>082278883878</item>
+        <item>089619100017</item>
+        <item>072156101510</item>
+        <item>081234567891</item>
+    </string-array>
+
+    <string-array name="asal_sekolah">
+        <item>Ar-Raihan</item>
+        <item>DCC Global</item>
+        <item>Fitrah Insani</item>
+    </string-array>
+
+
+</resources>
